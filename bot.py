@@ -9,11 +9,11 @@ from ...linear_math import Transform
 class SimpleBot(Bot):
     @property
     def name(self):
-        return "SimpleBot"
+        return "BrumBot"
 
     @property
     def contributor(self):
-        return "Nobleo"
+        return "Brum"
 
     def compute_commands(self, next_waypoint: int, position: Transform, velocity: Vector2) -> Tuple:
         target = self.track.lines[next_waypoint]
