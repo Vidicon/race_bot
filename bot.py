@@ -6,7 +6,7 @@ from ...bot import Bot
 from ...linear_math import Transform
 
 
-class SimpleBot(Bot):
+class BrumBot(Bot):
     @property
     def name(self):
         return "BrumBot"
