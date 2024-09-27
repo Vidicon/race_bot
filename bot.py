@@ -38,10 +38,7 @@ class BrumBot(Bot):
 
         self.lookahead = 20
         self.throttle = 0.0
-
-        self.bull = pygame.image.load(
-                os.path.dirname(__file__) + '/bull.png')
-
+        
     def __del__(self):
         self.s.close()
 
